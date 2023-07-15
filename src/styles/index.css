@@ -4,19 +4,28 @@
     margin: auto;
     justify-content: center;
     text-align: center;
-    width: 40rem;
+    width: 50rem;
     padding-top: 3rem;
+    font-family: "Mulish", sans-serif;
+}
+
+.title {
+    padding: 1rem;
+    font-size: 4rem;
     color: rgb(251, 126, 126);
+
 }
 
 .listContainer {
     box-shadow: #eeefec 0px 0px 20px 10px;
     text-align: left;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .firstLine {
-    font-size: 25px;
+    font-size: 2rem;
+    border: none;
+    outline: none;
 }
 
 .deleteXmark {
@@ -24,32 +33,33 @@
 }
 
 .taskCount {
+    padding-bottom: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
-    color: black;
+    color: rgb(197, 196, 196);
 }
 
 .lineItem {
     padding: 1rem;
-    border-bottom: 1px solid gray;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: black;
+    border-bottom: 1px solid gray;
 }
 
 #border1 {
     position: relative;
-    border: 1px solid rgb(197, 196, 196);
-    background-color: #eeefec;
-    width: 39rem;
+    box-shadow: #eeefec 0px 0px 20px 10px;
+    background-color: white;
+    width: 49rem;
     height: 5px;
     margin-top: -1.4rem;
 }
 
 #border2 {
     position: relative;
-    border: 1px solid rgb(197, 196, 196);
-    background-color: #eeefec;
-    width: 38rem;
+    box-shadow: #eeefec 0px 0px 20px 10px;
+    background-color: white;
+    width: 48rem;
     height: 5px;
     margin-top: -3.4rem;
 }
