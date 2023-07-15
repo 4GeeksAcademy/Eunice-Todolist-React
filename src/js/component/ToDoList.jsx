@@ -30,7 +30,7 @@ const ToDoList = () => {
 
     return (
         <div className="bigContainer">
-            <h1>To Do List</h1>
+            <h1 className="title">To Do List</h1>
             <div className="listContainer">
                 <div className="textLine row lineItem">
                     <div className="col">
@@ -40,7 +40,7 @@ const ToDoList = () => {
                             value={inputValue}
                             onChange={(e) => setInputValue(e.target.value)}
                             onKeyDown={handleKeyDown}
-                            className="firstLine form-control"
+                            className="firstLine"
                         />
                     </div>
                 </div>
