@@ -63,8 +63,8 @@ const ToDoList = () => {
                 ))}
                 <div className="taskCount">{taskCountMessage}</div>
             </div>
-            <span id="place1" className="placeholder placeholder-xs shadow"></span>
-            <span id="place2" className="placeholder placeholder-xs shadow"></span>
+            <span id="border1" className="placeholder placeholder-xs shadow"></span>
+            <span id="border2" className="placeholder placeholder-xs shadow"></span>
         </div>
     );
 };

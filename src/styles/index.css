@@ -10,14 +10,13 @@
 }
 
 .listContainer {
-    border: 1px solid rgb(197, 196, 196);
     box-shadow: #eeefec 0px 0px 20px 10px;
     text-align: left;
     padding: 1rem;
 }
 
 .firstLine {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .deleteXmark {
@@ -33,12 +32,24 @@
 .lineItem {
     padding: 1rem;
     border-bottom: 1px solid gray;
-    font-size: 15px;
+    font-size: 20px;
+    color: black;
 }
 
-#placeholder {
-    border-bottom: 1rem;
-    padding-bottom: 2rem;
+#border1 {
     position: relative;
+    border: 1px solid rgb(197, 196, 196);
+    background-color: #eeefec;
+    width: 39rem;
+    height: 5px;
+    margin-top: -1.4rem;
+}
 
+#border2 {
+    position: relative;
+    border: 1px solid rgb(197, 196, 196);
+    background-color: #eeefec;
+    width: 38rem;
+    height: 5px;
+    margin-top: -3.4rem;
 }
